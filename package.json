@@ -1,0 +1,25 @@
+{
+  "name": "nullbox",
+  "version": "1.0.0",
+  "description": "A javascript sandbox written purely in javascript.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonheart08/nullbox.git"
+  },
+  "keywords": [
+    "sandbox"
+  ],
+  "author": "moonheart08",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonheart08/nullbox/issues"
+  },
+  "homepage": "https://github.com/moonheart08/nullbox#readme"
+}
