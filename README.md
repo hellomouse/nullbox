@@ -2,12 +2,14 @@
 [![NPM](https://nodei.co/npm/nullbox.png?downloads=true&stars=true)](https://nodei.co/npm/nullbox/)
 # NullBox
 ##About
-Nullbox is a sandbox for JS made in JS. It provides corescript which adds some feautres such as emulation of events, utils and Buffer (100% JS). Its named NullBox because of the method to initialize the context of sandbox.
+Nullbox is a sandbox for JS made in JS. It provides corescript which adds some features such as emulation of events, utils and Buffer (100% JS). Its named NullBox because of the method to initialize the context of sandbox.
 
 ##Features
-* Its very safe
+* It is a secure sandbox.
 * Provides a corescript which emulates some NodeJS modules (util, events and buffer)
+
 ### Why is it safe?
+
 * no variables are passed to sandbox (or else a hacker can use .constructor and climb to another scope)
 * sandbox is executed in another process (avoids freezing of main process)
 * constructors inside sandbox dont point outside it
